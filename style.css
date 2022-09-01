@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*.position{*/
+/*  font-size: 32px;*/
+/*  position: absolute;*/
+/*  top:100px;*/
+/*  right: 40px;*/
+/*}*/
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content:center;
+  /*flex-wrap:wrap;*/
+}
+
+.visual1{
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.visual2{
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.visual3{
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.visual1-image{
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.visual2-image{
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.visual3-image{
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.step{
+  width: 45px;
+  height: 25px;
+  background-color: #ff9a4b;
+  color: #eeeeee;
+  position: absolute;
+}
+
+h3{
+  text-align: left;
+  padding: 175px 10px 5px 10px;
+}
+
+p{
+  text-align: left;
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px){
+
+  main{
+  width: 100%;
+  display: block;
+  margin: 50px auto;
+ }
+
+ .visual1{
+  width: 90%;
+  margin:0 auto 20px;
+}
+
+.visual2{
+  width: 90%;
+  margin:0 auto 20px;
+}
+
+.visual3{
+  width: 90%;
+  margin:0 auto;
+}
+
+.visual1-image{
+  width: 98%;
+  background-position: bottom;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+
+.visual2-image{
+  width: 98%;
+  background-position: bottom;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+
+.visual3-image{
+  width: 98%;
+  background-position: bottom;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+
+}
